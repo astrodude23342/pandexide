@@ -4,7 +4,7 @@ import subprocess
 import webbrowser
 
 compiler = Tk()
-compiler.title('Pandex IDE')
+compiler.title('PandexIDE')
 file_path = ''
 
 
@@ -64,7 +64,7 @@ run_bar.add_command(label='Ausführen', command=run)
 menu_bar.add_cascade(label='Ausführen', menu=run_bar)
 
 run_bar = Menu(menu_bar, tearoff=0)
-run_bar.add_command(label='Hilfe', command=help)
+run_bar.add_command(label='Docs', command=help)
 menu_bar.add_cascade(label='Hilfe', menu=run_bar)
 
 compiler.config(menu=menu_bar)
