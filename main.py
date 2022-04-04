@@ -53,7 +53,7 @@ def help():
 menu_bar = Menu(compiler)
 
 file_menu = Menu(menu_bar, tearoff=0)
-file_menu.add_command(label='Öfnnen', command=open_file)
+file_menu.add_command(label='Öffnen', command=open_file)
 file_menu.add_command(label='Speichern', command=save_as)
 file_menu.add_command(label='Speichern als', command=save_as)
 file_menu.add_command(label='Verlassen', command=exit)
